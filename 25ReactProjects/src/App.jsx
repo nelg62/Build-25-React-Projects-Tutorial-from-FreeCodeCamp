@@ -11,6 +11,7 @@ import TreeView from "./components/tree-view";
 import sideMenu from "./components/tree-view/data";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tab-test";
 
 function App() {
   return (
@@ -41,7 +42,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* scroll indicator component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* custom tabs compunent */}
+      <TabTest />
     </>
   );
 }
