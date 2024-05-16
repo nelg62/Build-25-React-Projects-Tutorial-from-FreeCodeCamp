@@ -9,6 +9,7 @@ import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import sideMenu from "./components/tree-view/data";
+import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   return (
@@ -33,7 +34,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* treeview component/ menu UI component/ recursive navigation menu */}
-      <TreeView menus={sideMenu} />
+      {/* <TreeView menus={sideMenu} /> */}
+
+      {/* light and dark theme switch */}
+      <LightDarkMode />
     </>
   );
 }
